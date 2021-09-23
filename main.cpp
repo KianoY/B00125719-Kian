@@ -29,16 +29,11 @@ public:
 
 int main()
 {
-    float r = 6.4, circleArea, pi = 3.14;
-
-    circleArea = (r*r)*pi;
-
     Triangle Tri;
     Tri.setWidth(5);
     Tri.setHeight(7);
 
     cout << "Total Triangle area: " << Tri.getArea() << endl;
-    cout << "Total Area of circle: " << circleArea << endl;
 
     return 0;
 }
